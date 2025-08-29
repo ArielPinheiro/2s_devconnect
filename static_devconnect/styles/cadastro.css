@@ -77,7 +77,7 @@ form >a, #secao-cadastro > p > a {
 }
 
 .estilo-formulario {
-    background-color: var(--cor-branco);
+    background-color: #8097B7;
     border: var(--borda);
     width: 100%;
     max-width: 400px;
@@ -90,15 +90,3 @@ main>div>p {
     font-size: var(--tamanho-fonte-sm);
 }
 
-#campo-file {
-    display: none;
-}
-#labell {
-    display: inline-block;
-    width: 300px;
-    color: rgb(106, 0, 255);
-    background-color: rgb(147, 147, 147);
-    text-align: center;
-    /*height: 35px;*/
-    padding: 10px;
-}

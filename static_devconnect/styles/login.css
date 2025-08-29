@@ -10,7 +10,7 @@ main {
 }
 
 main>div {
-   /* background-color: rgb(58, 1, 111);*/
+    /* background-color: rgb(58, 1, 111);*/
     width: 90%;
     display: flex;
     flex-direction: column;
@@ -56,17 +56,20 @@ form>p {
     /* remove a decoração do (sublinhado) que vem por  */
 }
 
-form >a, #secao-cadastro > p > a {
+form>a,
+#secao-cadastro>p>a {
     text-decoration: none;
     font-size: var(--tamanho-fonte-sm);
     color: var(--cor-azul);
 }
-#secao-cadastro > p {
+
+#secao-cadastro>p {
 
     color: var(--cor-preto);
     font-size: var(--tamanho-fonte-md);
 
 }
+
 #secao-cadastro {
     display: flex;
     justify-content: center;
@@ -76,15 +79,11 @@ form >a, #secao-cadastro > p > a {
 }
 
 .estilo-formulario {
-    background-color: var(--cor-branco);
-    border: var(--borda);
-    width: 100%;
-    max-width: 342px;
-
+ max-width: 342px;
 }
 
 main>div>p {
-   /* background-color: rgb(58, 1, 111);*/
+    /* background-color: rgb(58, 1, 111);*/
     color: var(--cor-preto);
     font-size: var(--tamanho-fonte-sm);
 }

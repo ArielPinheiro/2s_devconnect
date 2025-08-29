@@ -18,10 +18,13 @@
     --cor-cinza-escuro3: #7D7D7D;
     --cor-cinza-escuro4: #D1D1D1;
     --cor-cinza-medio: #e5e5e5;
-    --cor-cinza-claro: #fafafa; 
+    --cor-cinza-claro: #fafafa;
     --cor-roxo-claro: #8a2be2;
-    
-    --borda: 1px solid var(--cor-cinza-medio);
+    --cor-vermelho-escuro: #8B104D;
+    --cor-azul-escuroPaleta: #8097B7;
+
+
+    --borda: 3px solid var(--cor-vermelho-escuro);
     --borda-arredondada: 2px;
 
     --tamanho-fonte-lg: 20px;
@@ -41,7 +44,7 @@
 }
 
 body {
-    background-color: var(--cor-cinza-claro);
+    background-color: #CDE2FF;
 }
 
 h1 {
@@ -56,7 +59,8 @@ h1 {
 .formulario-botao-azul {
     background-color: var(--cor-azul);
     border-radius: var(--borda-arredondada);
-    border: none; /*tira a borda*/
+    border: none;
+    /*tira a borda*/
     height: 35px;
 
     color: var(--cor-branco);
@@ -65,7 +69,7 @@ h1 {
 
 
 
-.formulario-campos > input{
+.formulario-campos>input {
     border: var(--borda);
     height: 35px;
     background-color: var(--cor-cinza-claro);
@@ -76,10 +80,98 @@ h1 {
 
 }
 
-.formulario-campos > label {
+.formulario-campos>label {
 
     font-size: var(--tamanho-fonte-sm);
     color: var(--cor-cinza-escuro2);
-    font-weight: 600;/**/
+    font-weight: 600;
+    /**/
 
 }
+
+.estilo-formulario {
+    background-color: var(--cor-branco);
+    border: var(--borda);
+    width: 100%;
+
+}
+
+#campo-file {
+    display: none;
+}
+
+#labell {
+    display: inline-block;
+    width: 300px;
+    color: #8B104D;
+    background-color: #6DA9FB;
+    text-align: center;
+    /*height: 35px;*/
+    padding: 10px;
+}
+
+#cabecalho {
+    background-color: #8097B7;
+    width: 100%;
+    height: 80px;
+    display: flex;
+    justify-content: center;
+    border-bottom: var(--borda);
+}
+
+#cabecalho>nav {
+    width: 85%;
+    max-width: 900px;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+}
+
+#logo-mobile {
+    display: none;
+
+}
+
+.cabecalho-acoes {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+}
+
+.cabecalho-acoes>a {
+    display: flex;
+    align-items: center;
+}
+
+#foto-perfil {
+    height: 40px;
+    width: 40px;
+    object-fit: cover;
+    /*mantem a proporção do objeto so redimencionando ele */
+    object-position: center;
+    border-radius: 50%;
+}
+
+/*Responsivo*/
+
+@media only screen and (max-width: 500px) {
+
+    #logo-mobile {
+        display: initial;
+    }
+
+    #logo-desktop {
+        display: none;
+    }
+}
+
+/*@media only screen and (min-width: 500px) {
+    #logo-mobile{
+        display:none
+    }
+    #logo-desktop{
+        display:initial
+    }
+}*/
