@@ -10,7 +10,7 @@ main {
 }
 
 main>div {
-   /* background-color: rgb(58, 1, 111);*/
+    /* background-color: rgb(58, 1, 111);*/
     width: 90%;
     display: flex;
     flex-direction: column;
@@ -36,7 +36,7 @@ main>div {
     font-size: var(--tamanho-fonte-sm);
     max-width: 370px;
     text-align: center;
-    
+
 }
 
 form {
@@ -58,17 +58,20 @@ form>p {
     /* remove a decoração do (sublinhado) que vem por  */
 }
 
-form >a, #secao-cadastro > p > a {
+form>a,
+#secao-cadastro>p>a {
     text-decoration: none;
     font-size: var(--tamanho-fonte-sm);
     color: var(--cor-azul);
 }
-#secao-cadastro > p {
+
+#secao-cadastro>p {
 
     color: var(--cor-preto);
     font-size: var(--tamanho-fonte-md);
 
 }
+
 #secao-cadastro {
     display: flex;
     justify-content: center;
@@ -85,8 +88,7 @@ form >a, #secao-cadastro > p > a {
 }
 
 main>div>p {
-   /* background-color: rgb(58, 1, 111);*/
+    /* background-color: rgb(58, 1, 111);*/
     color: var(--cor-preto);
     font-size: var(--tamanho-fonte-sm);
 }
-
