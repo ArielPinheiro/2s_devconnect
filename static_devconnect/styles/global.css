@@ -21,11 +21,14 @@
     --cor-cinza-claro: #fafafa;
     --cor-roxo-claro: #8a2be2;
     --cor-vermelho-escuro: #8B104D;
-    --cor-azul-escuroPaleta: #8097B7;
+    --cor-cinza-escuroPaleta: #8097B7;
+    --cor-conzia-escuroPaleta2: #706F8B;
+    --cor-azul-escuroPaleta: #1F32FF;
+    --cor-fundo-paleta: #CDE2FF;
 
 
     --borda: 3px solid var(--cor-vermelho-escuro);
-    --borda-arredondada: 2px;
+    --borda-arredondada: 3px;
 
     --tamanho-fonte-lg: 20px;
     --tamanho-fonte-md: 16px;

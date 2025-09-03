@@ -52,7 +52,7 @@ form {
 
 form>p {
 
-    color: var(--cor-azul);
+    color: var(--cor-preto);
     font-size: var(--tamanho-fonte-sm);
     text-decoration: none;
     /* remove a decoração do (sublinhado) que vem por  */
@@ -65,7 +65,7 @@ form >a, #secao-cadastro > p > a {
 }
 #secao-cadastro > p {
 
-    color: var(--cor-preto);
+    color: var(--cor-azul);
     font-size: var(--tamanho-fonte-md);
 
 }
