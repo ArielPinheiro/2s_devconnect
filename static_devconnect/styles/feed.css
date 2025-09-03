@@ -168,4 +168,6 @@ main {
     font-size: 14px;
     order: 3;
     margin-left: 15px;
+    display: flex;
+    align-items: flex-start;
 }
