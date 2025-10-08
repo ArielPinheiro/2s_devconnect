@@ -27,6 +27,11 @@ main>div {
     padding: 3%;
 }
 
+.formulario-campos>label{
+    width: 100%;
+    max-width: 100%;
+}
+
 .formulario-botao-azul {
     width: 95%;
 }
